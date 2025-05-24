@@ -6,7 +6,7 @@ import zipfile
 import pandas as pd
 from io import StringIO
 
-def load_satcat_by_date(nb_level, date_name, dashdir='/'):
+def load_satcat_by_date( date_name, nb_level='../..', dashdir='/'):
     """
     Load the 'satcat.csv' file for a specific date from a ZIP archive.
 
